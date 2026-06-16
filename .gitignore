@@ -1,0 +1,9 @@
+# model checkpoints (დიდია, არ აიტვირთება)
+*.pt
+# wandb local logs
+wandb/
+# python cache
+__pycache__/
+*.pyc
+# data
+*.csv

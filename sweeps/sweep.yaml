@@ -1,0 +1,14 @@
+program: train.py
+method: bayes
+metric:
+  name: best_val/acc
+  goal: maximize
+parameters:
+  arch:          {value: cnn_bn}
+  lr:            {distribution: log_uniform_values, min: 0.0001, max: 0.005}
+  wd:            {values: [0.00001, 0.0005, 0.001]}
+  batch_size:    {values: [64, 128, 256]}
+  dropout:       {values: [0.0, 0.3, 0.4, 0.5]}
+  augment:       {values: [true, false]}
+  class_weights: {values: [true, false]}
+  epochs:        {value: 30}
