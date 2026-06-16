@@ -52,7 +52,7 @@ Optimizer — AdamW; Scheduler — CosineAnnealingLR; Loss — CrossEntropy (cla
 
 | არქიტექტურა | პარამეტრები | როლი |
 |---|---|---|
-| TinyCNN | 64K | underfit baseline (იატაკი) |
+| TinyCNN | 64K | underfit baseline  |
 | SimpleCNN | 1.27M | overfit-ის დემონსტრაცია |
 | CNN_BN | 1.27M | რეგულარიზაცია (overfit-ის გადაჭრა) |
 | ResNetMini | 2.78M | საუკეთესო მოდელი |
