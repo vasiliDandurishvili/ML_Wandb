@@ -180,3 +180,5 @@ Colab-ში secrets-ში ჩაამატე `KAGGLE_API_TOKEN`, `WANDB_KEY
 - **Project:** https://wandb.ai/vdand23-free-university-of-tbilisi-/fer2013-emotion
 - **Runs:** 24+ (tiny, simple, cnn_bn, hyperparameter search, resnet)
 - **Logged:** train/val loss & acc, macro-F1, train_val_gap, per-class recall, lr, confusion matrix, GPU metrics
+
+  Wandb_report: https://api.wandb.ai/links/vdand23-free-university-of-tbilisi-/s78vmdka
